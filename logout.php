@@ -2,7 +2,10 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-require "include/security.php"; //all in the folder include!
+
+require "include/security.php"; 
+
+require "include/security.php"; 
 require "include/functions.php";
 require "include/db_connect.php";
 
