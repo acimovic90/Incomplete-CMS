@@ -1,0 +1,321 @@
+
+body { 
+	font-family: 'Roboto', sans-serif;	
+	background: url("../background/backgroundsport2.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/***********Mobile Content*************/
+@media (max-width: 767px) {
+	body {
+		background: url("../background/backgroundmobile.png");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+
+
+
+
+	}
+	
+	.main{
+		margin-top: 30px;
+	}
+
+
+	.appContainer .img-responsive {
+		margin: 0 auto;
+		display: block;
+		max-width: 50%;
+		max-height: 50%;
+	}
+
+	.mobileContainer .img-responsive {
+		margin: 0 auto;
+		display: block;
+		max-width: 40%;
+		max-height: 40%;
+	}
+
+
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #00cccc;
+}
+
+.nav.navbar-nav li a {
+/*	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 21.12px; */
+	color: #00cccc;
+}
+
+.navbar-header a:link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 21.12px;
+	color: #00cccc;
+}
+
+
+
+
+.whiteLarge{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 44.4033px;
+	font-weight: bold;
+
+}
+
+.whiteMedium{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25.3733px; 
+	line-height: 38.06px;
+	
+}
+
+h1, h2, p {
+	display: inline;
+}
+
+
+/****************Content***********************/
+.row{
+	padding: 20px;
+}
+
+.appContainer{
+
+}
+.news_icon{
+	margin-top: 50px;
+}
+
+.form-control{
+	margin-top: 20px;
+}
+
+.description{
+	height: 150px;
+	padding-left: 30px;
+	margin-top: 15px;
+
+}
+
+
+
+.col-centered{
+	float: none;
+	margin: 0 auto;
+
+}
+
+.col-top{
+	margin-top: 20px;
+}
+
+.jumbotron{
+
+	background-color: #3A4652;
+}
+
+.jumbotron p{
+	color: white;
+	line-height: 38.06px;
+
+}
+/*************SCROLL ARROW************/
+
+.main{
+	margin-top: 50px;
+}
+
+section {
+	float:left;
+	width:100%;
+	background:#fff;
+	position:relative;
+	box-shadow:0 0 5px 0px #333;
+}
+
+
+/* the important styles */
+
+.arrow-wrap {
+	position:absolute;
+	z-index:1;
+	left:50%;
+	top:-5em;
+	margin-left:-5em;
+	background:#111;
+	width:10em;
+	height:10em;
+	padding:4em 2em;
+	border-radius:50%;
+	font-size:0.5em;
+	display:block;
+	box-shadow:0px 0px 5px 0px #333;
+}
+
+.arrow {
+	float:left;
+	position:relative;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 3em 3em 0 3em;
+	border-color: #ffffff transparent transparent transparent;
+	-webkit-transform:rotate(360deg)
+}
+
+.arrow:after {
+	content:'';
+	position:absolute;
+	top:-3.2em;
+	left:-3em;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 3em 3em 0 3em;
+	border-color: #111 transparent transparent transparent;
+	-webkit-transform:rotate(360deg)
+}
+
+
+.hint {
+	position:absolute;
+	top:0.6em;
+	width:100%;
+	left:0;
+	font-size:2em;
+	font-style:italic;
+	text-align:center;
+	color:#fff;
+	opacity:0;
+}
+
+
+.arrow-wrap:hover .hint {
+	opacity:1;
+}
+
+
+@-webkit-keyframes arrows {
+	0% { top:0; }
+	10% { top:12%; }
+	20% { top:0; }
+	30% { top:12%; }
+	40% { top:-12%; }
+	50% { top:12%; }
+	60% { top:0; }
+	70% { top:12%; }
+	80% { top:-12%; }
+	90% { top:12%; }
+	100% { top:0; }
+}
+
+.arrow-wrap .arrow {
+	-webkit-animation: arrows 2.8s 0.4s;
+	-webkit-animation-delay: 3s;
+}
+
+
+
+
+
+/*  this is the unimportant CSS used just to layout the content  */
+
+
+
+header {
+	float:left;
+	width:100%;
+	padding:2em 4em;
+	color:#fff;
+	height:calc(100% - 3em);
+}
+
+header h1 {
+	margin:0;
+}
+header h3 {
+	margin:0;
+	color: #56dcee ;
+}
+
+header a {
+	color:#56dcee;
+	opacity:0.5;
+	text-decoration:none;
+}
+
+header a:hover {
+	color:#333;
+	opacity:1;
+}
+
+
+.content {
+	float:left;
+	width:70%;
+	margin:0 15%;
+	padding:2em 0;
+}
+
+h1 {
+	font-family:'Maven Pro', sans-serif;
+	font-weight:300;
+	font-size:2.4em;
+}
+
+h2, h3 {
+	font-family:'Maven Pro', sans-serif;
+	font-weight:300;
+	font-size:1.5em;
+	margin-top:2em;
+}
+
+pre {
+	background:#ededed;
+	padding:1em;
+}
+
+p {
+	color:#555;
+	font-size:0.9em;
+}
+
+p a {
+	color:#14b5d1;
+	text-decoration:none;
+}
+
+/************ADMIN STYLES****************/
+
+
+.page-header {
+	padding-bottom: 9px;
+	margin: 40px 0 20px;
+	border-bottom: none;
+}
+
+.add-user-right{
+	float: right;
+	color: white;
+}
+
+.delete-log-right{
+	float: right;
+	margin:;
+}
