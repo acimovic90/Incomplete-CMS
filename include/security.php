@@ -22,7 +22,7 @@ if($results['session_id'] == $session_id && $results['username'] == $session_use
     header("Location:logout.php");
 }
 
-$blacklisted = array(); //94.18.243.144
+$blacklisted = array(); 
 if (in_array ($_SERVER['REMOTE_ADDR'], $blacklisted)) {
     echo "You are blocked";
     exit;
