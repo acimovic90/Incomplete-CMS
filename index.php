@@ -1,4 +1,4 @@
-<?php require 'include/header.php'; ?>
+<?php require 'include/header.php'; ?> <!---->
 
 <!-- Begin page content -->
 
